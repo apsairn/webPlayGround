@@ -1,0 +1,29 @@
+webplayground.startup.manager = webProthing
+webprothing.keys.manager = Valar
+if webplayground.startup.manager.status = FAILED :
+  webplayground.startup.manager restart
+  webplayground.startup.manager  rekey
+  webplayground.stoped.manager startup
+if webprothing.startup = FAILED :
+  webplayground.Status = FAILED
+  display FAILED
+if RecomeManager.Status = OK :
+  webplayground.startup =  OK
+  webprothing.status = OK
+Something :
+  Start Thing Something @5ded startup manager.
+  Golden Startup From Ed20
+  Manager Start at glide(4854,4584,484,48.4)4848;4+8-4
+	Startup...
+Something:
+	Thing at new because 50;R4;c50b4
+Startup : 
+	RELEASE in version : 32 Unstable
+	Startup in manager 50d.
+	Power by GitHub.
+	Welcome to webPlayGround!
+Stopped : 
+	pgrep webPlayGround||kill
+StartupManager.False :
+	display 'No such software.'
+END.
